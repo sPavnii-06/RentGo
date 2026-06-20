@@ -4,7 +4,7 @@ RentGO is a Java-based desktop application designed to streamline vehicle rental
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 * **Language:** Java
 * **GUI Framework:** Java Swing / AWT (Abstract Window Toolkit)
@@ -16,7 +16,7 @@ RentGO is a Java-based desktop application designed to streamline vehicle rental
 
 * **Dynamic Fleet Inventory Panel:** Browse a live list of vehicles complete with model names, unique registration plate numbers, and real-time availability tags (`[Available]` / `[Rented]`).
 * **Instant Visual Preview Canvas:** Selecting any car from the inventory list instantly renders a high-resolution image of that specific vehicle model on the main dashboard.
-* **Streamlined User Onboarding:** Features interactive `JOptionPane` dialog prompts that guide users to securely enter registration details (Full Name, Age, City) when checking out a vehicle.
+* **Streamlined User Onboarding:** Features interactive `JOptionPane` dialog prompts that guide users to securely enter registration details (Full Name, Age, City) and verified Aadhaar Number, when checking out a vehicle.
 * **Comprehensive Rental Log Engine:** Automatically generates and displays structured, human-readable audit trails tracking customer demographics, chosen payment pathways (Cash or Credit/Debit), exact system timestamps, and calculated total rental costs.
 
 ---
