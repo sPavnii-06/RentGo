@@ -1,16 +1,48 @@
-# RentGO - Car Rental Management System
+# RentGO — Car Rental Management System
 
-RentGO is a desktop-based Car Rental Management System featuring a clean Graphical User Interface (GUI). The application provides an intuitive workflow for managing a vehicle fleet, processing rentals, and keeping detailed transaction logs.
+RentGO is a Java-based desktop application designed to streamline vehicle rentals and inventory tracking. Built with a clean Graphical User Interface (GUI), the system allows users to browse an active vehicle fleet, process real-time rentals or returns, and manage a secure transactional log history.
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+* **Language:** Java
+* **GUI Framework:** Java Swing / AWT (Abstract Window Toolkit)
+* **IDE:** IntelliJ IDEA
+
+---
 
 ##  Key Features
 
-* **Interactive Fleet Inventory:** Browse a dynamic list of vehicles showing real-time availability status, registration plates, and model names.
-* **Dynamic Media Preview:** Selecting a car from the inventory panel instantly displays high-resolution vehicle imagery.
-* **Streamlined Rental Flow:** Built-in modal dialogs prompt for user registration data (Name, Age, City) during booking operations.
-* **Comprehensive Transaction Logs:** Tracks and stores detailed logs including total financial costs, payment methods, and precise rental timestamps.
+* **Dynamic Fleet Inventory Panel:** Browse a live list of vehicles complete with model names, unique registration plate numbers, and real-time availability tags (`[Available]` / `[Rented]`).
+* **Instant Visual Preview Canvas:** Selecting any car from the inventory list instantly renders a high-resolution image of that specific vehicle model on the main dashboard.
+* **Streamlined User Onboarding:** Features interactive `JOptionPane` dialog prompts that guide users to securely enter registration details (Full Name, Age, City) when checking out a vehicle.
+* **Comprehensive Rental Log Engine:** Automatically generates and displays structured, human-readable audit trails tracking customer demographics, chosen payment pathways (Cash or Credit/Debit), exact system timestamps, and calculated total rental costs.
 
-##  Tech Stack
+---
 
-* **Language:** Java
-* **GUI Framework:** Java Swing / AWT
-* **IDE:** IntelliJ IDEA
+##  System Walkthrough & User Interface
+
+The application follows an end-to-end operational workflow:
+
+### 1. Welcome & Initialization
+Upon launching the application, users are greeted with a clear modal welcome dialog to initialize the platform session.
+
+### 2. Vehicle Selection & Interactive Checkout
+* Users can view the complete active fleet (e.g., Toyota Innova, Hyundai Creta, Mahindra Thar).
+* Clicking a vehicle instantly updates the media canvas with the corresponding car image.
+* Selecting **"Rent Selected Car"** triggers an explicit text-input prompt requiring user verification before updating the vehicle's availability state.
+
+### 3. Transaction Logging & History
+Clicking **"View Rental Logs"** opens a dedicated text-rendering terminal component within the UI. This dashboard outputs structured customer session summaries, tracking:
+* **Customer Profile:** Name, Age, and Home City.
+* **Financial Breakdowns:** Final booking costs calculated relative to rental duration.
+* **Audit Trail:** Exact calendar dates, times, and vehicle metadata for seamless tracking.
+
+---
+
+##  How to Run the Project Locally
+
+### Prerequisites
+* Ensure you have the **Java Development Kit (JDK 8 or higher)** installed on your machine.
+* An IDE such as **IntelliJ IDEA** is recommended.
