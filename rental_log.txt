@@ -1,0 +1,1 @@
+Car ID: 5, Plate: RJ14GH2345, Model: Hyundai Creta, Rented by: Pavni Singh, DOB: 2006-07-19, Duration: 4 days 4 hours, City: Greater Noida, Payment: UPI, Total Price: ₹14000.0
